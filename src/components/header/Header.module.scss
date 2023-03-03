@@ -27,9 +27,9 @@
         }
     }
 
-    .burger {
-        display: none;
-    }
+}
+.burger {
+    display: none;
 }
 
 
@@ -47,10 +47,18 @@ a {
     text-decoration: none;
 }
 
+
+    
+
 @media (max-width: 768px) {
 
     .burger {
-        display: flex;
+        left: 20px;
+    font-size: 20px;
+    position: absolute;
+    display: flex;
+    top: 27px;
+    align-items: center;
     }
 
     .header_a {
@@ -71,10 +79,9 @@ a {
 
 }
 .header_a img {
-    margin-top: 5px;
-    height: 60px;
-    margin-left: 90px;
-    margin-right: 60px;
+    margin-top: 10px;
+    height: 40px;
+    margin-left: 100px;
 }
 
     .container {
